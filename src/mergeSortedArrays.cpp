@@ -15,7 +15,6 @@ NOTES:
 */
 
 #include <iostream>
-
 struct transaction {
 	int amount;
 	char date[11];
