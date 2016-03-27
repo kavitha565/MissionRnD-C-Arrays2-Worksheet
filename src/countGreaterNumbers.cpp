@@ -28,7 +28,7 @@ int checkdate(int day, int month, int year)
 		return(-1);
 	else if (month == 2)
 	{
-		if (year % 4 == 0)
+		if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0)
 		{
 			if (day>29)
 				return(-1);
